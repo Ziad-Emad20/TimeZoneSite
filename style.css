@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    font-size: 15px;
+}
+nav {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.189);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+nav .nav-item:hover {
+    background-color: #ff2020e4;
+    border-radius: 10px;
+    transition: .5s;
+}
+nav .nav-item .nav-link:hover {
+    color: white;
+    transition: .5s;
+}
+section {
+    margin: 4rem 0;
+}
+
+/* Start Header */
+header {
+    width: 97%;
+    height: 120vh;
+    background-image: url(./img/hero/watch.png);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-size: 300px;
+}
+
+.card .card-img-overlay .card-title {
+    font-size: 57px;
+    margin-top: 35%;
+}
+
+/* End Header */
+/* Start Section 2 (new prodact) */
+.new_product:hover {
+    /* End Section 2 (new prodact) */
+    transform: scale(1.1);
+}
+
+/* Star Section 3 (image prodact) */
+.image-proudact {
+    width: 100%;
+}
+
+.image-proudact:hover {
+    transform: scale(.9);
+}
+
+/* End Section 3 (image prodact) */
+/* Star Section 4 (prodact) */
+.image-proudact-but {
+    position: relative;
+    border-bottom: 2px solid #FF2020;
+
+}
+
+.image-proudact-but .overlay {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+}
+
+.image-proudact-but .overlay button {
+    background-color: #ff2020d3;
+    border: none;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+}
+
+.image-proudact-but .overlay .heart-love {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.image-proudact-but:hover .overlay {
+    opacity: 1;
+}
+
+/* End Section 4 (prodact) */
+/* Star Section 5 (prodact) */
+.text-product-sec5 .card-title {
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+}
+@media (max-width: 568px) {
+    .text-product-sec5 .card-title {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+@media (min-width: 568px) and (max-width: 1200px) {
+    .text-product-sec5 .card-title {
+        margin-top: 1rem;
+        font-size: 2.3rem;
+    }
+}
+.card-body-sec5{
+    direction: rtl;
+    display: flex;
+    align-items: center;
+}
+.card-title-bottom {
+    direction: ltr;
+}
+.btn-show-watch {
+    background-color: #FF2020;
+    color: white;
+}
+.btn-show-watch:hover {
+    border: 1px solid #FF2020;
+}
+/* End Section 5 (prodact) */
+.card-body-sec6{
+    display: flex;
+    align-items: center;
+}
+.link-card {
+    width: 95%;
+    margin: auto;
+    background-color: #FF2020;
+    padding: 2rem 1.5rem;
+}
+@media (max-width: 768px) {
+    .text-footer{
+        background-color: #FF2020;
+    }
+}
+.text-footer .link-card i {
+    color: white;
+    font-size: 2.4rem;
+}
+.footer-link-social a{
+    color: black;
+}
