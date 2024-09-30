@@ -31,7 +31,7 @@ section {
 /* Start Header */
 header {
     width: 97%;
-    height: 120vh;
+    height: 100vh;
     background-image: url(./img/hero/watch.png);
     background-repeat: no-repeat;
     background-position-x: 90%;
